@@ -24,12 +24,14 @@ A simple console-based Hospital Management System developed using Java and MySQL
 ---
 
 ##⚙️ How to Run
+
 javac -cp ".;lib/mysql-connector-j-9.3.0.jar" *.java
 java -cp ".;lib/mysql-connector-j-9.3.0.jar" Main
 
 ---
 
 ##📌 Note
+
 > Make sure MySQL server is running locally.
 > Database credentials are located in DBConnection.java. Update if needed:
 DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "your_password");
