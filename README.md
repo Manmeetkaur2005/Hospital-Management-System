@@ -22,7 +22,19 @@ A simple console-based Hospital Management System developed using Java and MySQL
 - JDBC (for Java-MySQL connection)
   
 ---
-### MySQL Database Setup
+
+##⚙️ How to Run
+javac -cp ".;lib/mysql-connector-j-9.3.0.jar" *.java
+java -cp ".;lib/mysql-connector-j-9.3.0.jar" Main
+
+---
+
+##📌 Note
+> Make sure MySQL server is running locally.
+> Database credentials are located in DBConnection.java. Update if needed:
+DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "your_password");
+
+## MySQL Database Setup
 
 ```sql
 CREATE DATABASE hospital;
@@ -47,12 +59,6 @@ CREATE TABLE patients (
 
 ---
 
-##⚙️ How to Run
-javac -cp ".;lib/mysql-connector-j-9.3.0.jar" *.java
-java -cp ".;lib/mysql-connector-j-9.3.0.jar" Main
-
----
-
 ========= Hospital Management System =========
 1. Add Doctor
 2. View Doctors
@@ -63,12 +69,6 @@ java -cp ".;lib/mysql-connector-j-9.3.0.jar" Main
 7. Exit
 Enter your choice:
 
----
-
-##📌 Note
-> Make sure MySQL server is running locally.
-> Database credentials are located in DBConnection.java. Update if needed:
-DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "your_password");
 
 
 
