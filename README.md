@@ -65,12 +65,6 @@ Enter your choice:
 
 ---
 
-## Author
-Manmeet Kaur
-Java + SQL Learner | Future Backend Dev 💻
-
----
-
 ##📌 Note
 > Make sure MySQL server is running locally.
 > Database credentials are located in DBConnection.java. Update if needed:
